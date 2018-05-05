@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="623.0" prefWidth="1070.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CarUpdateController">
+   <children>
+      <AnchorPane layoutX="191.0" layoutY="70.0" minHeight="0.0" minWidth="0.0" prefHeight="539.0" prefWidth="837.0">
+         <children>
+            <Label fx:id="idL" layoutX="51.0" layoutY="73.0" text="ID:" />
+            <Label />
+            <Label fx:id="carownerL" layoutX="49.0" layoutY="296.0" text="Manufacturer" />
+            <Label />
+            <TextField fx:id="id" layoutX="224.0" layoutY="69.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="mil" layoutX="225.0" layoutY="407.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="Doip" layoutX="224.0" layoutY="367.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="CarOwner" layoutX="224.0" layoutY="292.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="carname" layoutX="224.0" layoutY="104.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="Model" layoutX="223.0" layoutY="144.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="CarColor" layoutX="224.0" layoutY="183.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label fx:id="colorL" layoutX="51.0" layoutY="187.0" text="Car Color" />
+            <Label fx:id="nameL" layoutX="51.0" layoutY="108.0" text="Name" />
+            <Label fx:id="modelL" layoutX="51.0" layoutY="148.0" text="Model" />
+            <Label layoutX="50.0" layoutY="371.0" text="Date of Initial Purchase" />
+            <Label fx:id="milL" layoutX="50.0" layoutY="411.0" text="Mileage" />
+            <Label fx:id="priceL" layoutX="50.0" layoutY="451.0" text="Price" />
+            <TextField fx:id="loc" layoutX="225.0" layoutY="491.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <TextField fx:id="price" layoutX="225.0" layoutY="447.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label fx:id="locL" layoutX="51.0" layoutY="495.0" text="Location" />
+            <TextField fx:id="TankCapacity" layoutX="225.0" layoutY="220.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label fx:id="capL" layoutX="51.0" layoutY="224.0" text="Tank Capacity" />
+            <TextField fx:id="FuelType" layoutX="225.0" layoutY="255.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label fx:id="feulT" layoutX="51.0" layoutY="261.0" text="Fuel Type" />
+            <Label fx:id="infName" layoutX="466.0" layoutY="396.0" text="Informer Name" />
+            <ComboBox fx:id="infcombo" layoutX="586.0" layoutY="388.0" prefWidth="150.0" promptText="Select informer" styleClass="combo" stylesheets="@Displaycars.css" />
+            <Button fx:id="cancel" layoutX="537.0" layoutY="471.0" mnemonicParsing="false" onAction="#cancelAct" prefHeight="52.0" prefWidth="115.0" styleClass="buttons" stylesheets="@Displaycars.css" text="CANCEL" textFill="WHITE" />
+            <Button fx:id="save" layoutX="698.0" layoutY="471.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="115.0" styleClass="buttons" stylesheets="@Displaycars.css" text="SAVE " textFill="WHITE" />
+            <TextField fx:id="SName" layoutX="585.0" layoutY="288.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label fx:id="snameL" layoutX="467.0" layoutY="292.0" text="Seller name" />
+            <TextField fx:id="Pno" layoutX="585.0" layoutY="322.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label layoutX="467.0" layoutY="326.0" text="Phone no" />
+            <TextField fx:id="add" layoutX="585.0" layoutY="355.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Label layoutX="467.0" layoutY="359.0" text="Address" />
+            <Label layoutX="52.0" layoutY="329.0" prefHeight="17.0" prefWidth="122.0" text="NUMBER PLATE" />
+            <TextField fx:id="numberplate" layoutX="224.0" layoutY="325.0" styleClass="Textfields" stylesheets="@CARSINTER.css" />
+            <Button fx:id="closebtn" layoutY="11.0" mnemonicParsing="false" onAction="#closebtnac" prefHeight="29.0" prefWidth="28.0" styleClass="closebtn" stylesheets="@DashbaordDesign.css" text="x" textFill="WHITE" />
+            <Button fx:id="minbutton" layoutY="11.0" mnemonicParsing="false" onAction="#minbutact" prefHeight="29.0" prefWidth="28.0" styleClass="minbtn" stylesheets="@DashbaordDesign.css" text="-" textFill="WHITE" />
+            <Pane layoutX="546.0" layoutY="53.0" prefHeight="200.0" prefWidth="228.0" styleClass="picpane" stylesheets="@CARSINTER.css">
+               <children>
+                  <ImageView fx:id="img" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#imac" pickOnBounds="true" preserveRatio="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label fx:id="nameL1" layoutX="546.0" layoutY="32.0" text="upload Image" />
+         </children>
+      </AnchorPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000b0" height="30.0" layoutX="10.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1079.0" />
+      <Pane prefHeight="623.0" prefWidth="159.0" style="-fx-background-color: #1F3E50;" stylesheets="@DashbaordDesign.css">
+         <children>
+            <Pane fx:id="HomePane" layoutX="8.0" layoutY="174.0" onMouseClicked="#homepaneclick" onMouseEntered="#homepaneenter" onMouseExited="#homepaneexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="hometext" layoutX="57.0" layoutY="17.0" text="Dashbaord" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="homeico" layoutX="14.0" layoutY="20.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: #539ec9;" styleClass="Home" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="carpane" layoutX="8.0" layoutY="228.0" onMouseClicked="#carpaneclick" onMouseEntered="#carpmouseenter" onMouseExited="#carpmouseexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5; -fx-background-color: #6CBBD9;">
+               <children>
+                  <Label fx:id="cars" layoutX="59.0" layoutY="17.0" styleClass="Cars" stylesheets="@Deshboard.css" text="Cars" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="carico" layoutX="14.0" layoutY="20.0" prefHeight="14.0" prefWidth="16.0" style="-fx-background-color: white;" styleClass="cars">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="workerpane" layoutX="8.0" layoutY="282.0" onMouseClicked="#workerpaneclick" onMouseEntered="#wmouseenter" onMouseExited="#wmouseexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="workers" layoutX="59.0" layoutY="16.0" text="Workers" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="workerico" layoutX="14.0" layoutY="18.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: #539ec9;" styleClass="workers" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="marketpane" layoutX="8.0" layoutY="334.0" onMouseClicked="#marketpaneclick" onMouseEntered="#markpaneenter" onMouseExited="#markpaneexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="marketing" layoutX="59.0" layoutY="16.0" text="Marketing" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="markico" layoutX="16.0" layoutY="18.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: #539ec9;" styleClass="market" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="compane" layoutX="8.0" layoutY="386.0" onMouseClicked="#commissionpaneclick" onMouseEntered="#commouseenter" onMouseExited="#commouseexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="commission" layoutX="57.0" layoutY="16.0" text="Comission" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="commico" layoutX="14.0" layoutY="16.0" prefHeight="18.0" prefWidth="18.0" style="-fx-background-color: #539ec9;" styleClass="Com" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Label layoutX="167.0" text="Auto Sale and purchase Managment " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label fx:id="date" layoutX="633.0" layoutY="6.0" text="DATE" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button fx:id="closebtn" layoutX="1061.0" mnemonicParsing="false" onAction="#closebtnac" prefHeight="29.0" prefWidth="28.0" styleClass="closebtn" stylesheets="@DashbaordDesign.css" text="x" textFill="WHITE" />
+      <Button fx:id="minbutton" layoutX="1033.0" mnemonicParsing="false" onAction="#minbutact" prefHeight="29.0" prefWidth="28.0" styleClass="minbtn" stylesheets="@DashbaordDesign.css" text="-" textFill="WHITE" />
+      <Label layoutX="176.0" layoutY="49.0" text="Update Car" textFill="#1f3e50">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

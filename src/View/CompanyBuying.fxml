@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="1070.0" stylesheets="@CompanyBuying.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CompanyBuyingController">
+   <children>
+      <ScrollPane layoutX="187.0" layoutY="50.0" prefHeight="479.0" prefWidth="837.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="538.0" prefWidth="754.0">
+               <children>
+                  <Pane layoutX="10.0" layoutY="50.0" prefHeight="279.0" prefWidth="750.0">
+                     <children>
+                        <Label layoutX="9.0" layoutY="6.0" prefHeight="26.0" prefWidth="84.0" text="About Car" textFill="#1f3e50">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="48.0" text="ID" />
+                        <Label layoutX="20.0" layoutY="88.0" text="Name" />
+                        <Label layoutX="20.0" layoutY="195.0" text="Manufacturer Name" />
+                        <Label layoutX="21.0" layoutY="229.0" text="Milleage" />
+                        <Label layoutX="21.0" layoutY="123.0" text="Year" />
+                        <Separator layoutX="93.0" layoutY="9.0" prefHeight="20.0" prefWidth="629.0" />
+                        <Label layoutX="21.0" layoutY="159.0" prefHeight="17.0" prefWidth="35.0" text="Price" />
+                        <Label layoutX="419.0" layoutY="32.0" text="Image" />
+                        <Label fx:id="id" layoutX="171.0" layoutY="48.0" text="Label" />
+                        <Label fx:id="name" layoutX="171.0" layoutY="88.0" text="Label" />
+                        <Label fx:id="year" layoutX="171.0" layoutY="123.0" text="Label" />
+                        <Label fx:id="price" layoutX="171.0" layoutY="159.0" text="Label" />
+                        <Label layoutX="171.0" layoutY="195.0" text="Label" />
+                        <Label fx:id="mil" layoutX="171.0" layoutY="229.0" text="Label" />
+                        <Pane layoutX="435.0" layoutY="59.0" prefHeight="200.0" prefWidth="200.0" styleClass="picc" stylesheets="@CompanyBuying.css">
+                           <children>
+                              <ImageView fx:id="img" fitHeight="172.0" fitWidth="181.0" layoutX="11.0" layoutY="15.0" onMouseClicked="#imac" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="8.0" layoutY="314.0" prefHeight="194.0" prefWidth="750.0">
+                     <children>
+                        <Label layoutX="17.0" layoutY="6.0" prefHeight="26.0" prefWidth="63.0" text="Buyer" textFill="#1f3e50">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="21.0" layoutY="56.0" text="ID" />
+                        <Label layoutX="20.0" layoutY="98.0" text="Name" />
+                        <Label layoutX="17.0" layoutY="187.0" text="Phone No." />
+                        <Label layoutX="18.0" layoutY="141.0" text="Address" />
+                        <Separator layoutX="63.0" layoutY="9.0" prefHeight="20.0" prefWidth="191.0" />
+                        <ImageView fitHeight="130.0" fitWidth="160.0" layoutX="568.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label layoutX="190.0" layoutY="56.0" text="1" />
+                        <Label layoutX="190.0" layoutY="98.0" text="Furqan Parvez" />
+                        <Label layoutX="190.0" layoutY="141.0" text="Gulistan-e-Johar" />
+                        <Label layoutX="189.0" layoutY="187.0" text="0321-3710005" />
+                        <Label layoutX="321.0" layoutY="58.0" text="ID" />
+                        <Label layoutX="317.0" layoutY="100.0" text="Name" />
+                        <Label layoutX="316.0" layoutY="185.0" text="Phone No." />
+                        <Label layoutX="316.0" layoutY="141.0" text="Address" />
+                        <Label fx:id="sid" layoutX="505.0" layoutY="56.0" text="ID" />
+                        <Label fx:id="sname" layoutX="505.0" layoutY="98.0" text="ID" />
+                        <Label fx:id="addr" layoutX="505.0" layoutY="141.0" text="ID" />
+                        <Label fx:id="pno" layoutX="505.0" layoutY="187.0" text="ID" />
+                        <Label layoutX="311.0" layoutY="4.0" prefHeight="26.0" prefWidth="63.0" text="Seller" textFill="#1f3e50">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="385.0" layoutY="7.0" prefHeight="20.0" prefWidth="204.0" />
+                        <Separator layoutX="290.0" layoutY="19.0" orientation="VERTICAL" prefHeight="189.0" prefWidth="6.0" />
+                        <Label layoutX="568.0" layoutY="50.0" text="Image" />
+                     </children>
+                  </Pane>
+                  <Label layoutX="14.0" layoutY="-2.0" text="Company Buying" textFill="#1f3e50">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000b0" height="30.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1070.0" />
+      <Button fx:id="back" layoutX="187.0" layoutY="552.0" mnemonicParsing="false" onAction="#backbtn" prefHeight="38.0" prefWidth="76.0" styleClass="btn" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="956.0" layoutY="553.0" mnemonicParsing="false" onAction="#savee" prefHeight="37.0" prefWidth="68.0" styleClass="btn" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Pane prefHeight="623.0" prefWidth="159.0" style="-fx-background-color: #1F3E50;" stylesheets="@DashbaordDesign.css">
+         <children>
+            <Pane fx:id="HomePane" layoutX="8.0" layoutY="174.0" onMouseClicked="#homepaneclick" onMouseEntered="#homepaneenter" onMouseExited="#homepaneexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="hometext" layoutX="57.0" layoutY="17.0" text="Dashbaord" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="homeico" layoutX="14.0" layoutY="20.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: #539ec9;" styleClass="Home" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="carpane" layoutX="8.0" layoutY="228.0" onMouseClicked="#carpaneclick" onMouseEntered="#carpmouseenter" onMouseExited="#carpmouseexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5; -fx-background-color: #6CBBD9;">
+               <children>
+                  <Label fx:id="cars" layoutX="59.0" layoutY="17.0" styleClass="Cars" stylesheets="@Deshboard.css" text="Cars" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="carico" layoutX="14.0" layoutY="20.0" prefHeight="14.0" prefWidth="16.0" style="-fx-background-color: white;" styleClass="cars">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="workerpane" layoutX="8.0" layoutY="282.0" onMouseClicked="#workerpaneclick" onMouseEntered="#wmouseenter" onMouseExited="#wmouseexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="workers" layoutX="59.0" layoutY="16.0" text="Workers" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="workerico" layoutX="14.0" layoutY="18.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: #539ec9;" styleClass="workers" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="marketpane" layoutX="8.0" layoutY="334.0" onMouseClicked="#marketpaneclick" onMouseEntered="#markpaneenter" onMouseExited="#markpaneexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="marketing" layoutX="59.0" layoutY="16.0" text="Marketing" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="markico" layoutX="16.0" layoutY="18.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: #539ec9;" styleClass="market" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="compane" layoutX="8.0" layoutY="386.0" onMouseClicked="#commissionpaneclick" onMouseEntered="#commouseenter" onMouseExited="#commouseexit" prefHeight="52.0" prefWidth="144.0" style="-fx-background-radius: 5;">
+               <children>
+                  <Label fx:id="commission" layoutX="57.0" layoutY="16.0" text="Comission" textFill="#539ec9">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Pane fx:id="commico" layoutX="14.0" layoutY="16.0" prefHeight="18.0" prefWidth="18.0" style="-fx-background-color: #539ec9;" styleClass="Com" stylesheets="@Deshboard.css">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="closebtn" layoutX="1041.0" mnemonicParsing="false" onAction="#closebtnac" prefHeight="29.0" prefWidth="28.0" styleClass="closebtn" stylesheets="@DashbaordDesign.css" text="x" textFill="WHITE" />
+      <Button fx:id="minbutton" layoutX="1013.0" mnemonicParsing="false" onAction="#minbutact" prefHeight="29.0" prefWidth="28.0" styleClass="minbtn" stylesheets="@DashbaordDesign.css" text="-" textFill="WHITE" />
+      <Label layoutX="177.0" text="Auto Sale and purchase Managment " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label fx:id="date" layoutX="627.0" layoutY="6.0" text="DATE" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+</Pane>

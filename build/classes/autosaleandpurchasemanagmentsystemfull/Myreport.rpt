@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="15" show-margin="true" snap-margin="true" margin="36 36 36 36" null-string="&lt;NA&gt;">
+  <datasource source="file:/C:/Users/DANI-PC/Documents/NetBeansProjects/JavaApplication22/dataasett.xml" />
+  <page width="612" height="792">
+    <text x="36" y="36" width="540" height="96" valign="middle">
+      <font name="Arial Bold" size="22" />
+      <pgraph align="center" />
+      <string>CAR RECIPT</string>
+    </text>
+    <line x="48" y="111" width="509">
+      <stroke />
+    </line>
+    <text x="57" y="135" width="110" height="23">
+      <font name="Arial" size="18" />
+      <string>BUYER</string>
+    </text>
+    <line x="49" y="168" width="171">
+      <stroke />
+    </line>
+    <text x="395" y="136" width="110" height="23">
+      <font name="Arial" size="18" />
+      <string>SELLER</string>
+    </text>
+    <line x="386" y="169" width="171">
+      <stroke />
+    </line>
+    <text x="64" y="182" width="56" height="17">
+      <string>Name :</string>
+    </text>
+    <text x="63" y="200" width="56" height="17">
+      <string>Contact :</string>
+    </text>
+    <text x="395" y="220" width="56" height="17">
+      <string>CNIC :</string>
+    </text>
+    <text x="66" y="238" width="56" height="17">
+      <string>Address : :</string>
+    </text>
+    <text x="393" y="184" width="56" height="17">
+      <string>Name :</string>
+    </text>
+    <text x="392" y="201" width="56" height="17">
+      <string>Contact :</string>
+    </text>
+    <text x="66" y="219" width="56" height="17">
+      <string>CNIC :</string>
+    </text>
+    <text x="396" y="235" width="56" height="17">
+      <string>Address : :</string>
+    </text>
+    <text x="214" y="311" width="184" height="23">
+      <font name="Arial" size="18" />
+      <string>CAR  INFORMATION</string>
+    </text>
+    <line x="66" y="345" width="491" height="-5">
+      <stroke />
+    </line>
+    <text x="85" y="384" width="56" height="17">
+      <string>Name:</string>
+    </text>
+    <text x="84" y="404" width="79" height="17">
+      <string>Ma</string>
+      <string>nufacture:&#10;</string>
+      <string> :</string>
+    </text>
+    <text x="84" y="425" width="56" height="17">
+      <string>Color</string>
+      <string> :</string>
+    </text>
+    <text x="396" y="380" width="64" height="17">
+      <string>Location :</string>
+    </text>
+    <text width="56" height="17">
+      <string>Name :</string>
+    </text>
+    <text width="56" height="17">
+      <string>Name :</string>
+    </text>
+    <text x="396" y="398" width="56" height="17">
+      <string>Mileage</string>
+      <string> :</string>
+    </text>
+    <text x="397" y="420" width="56" height="17">
+      <string>Model :</string>
+    </text>
+    <text x="82" y="443" width="88" height="17">
+      <string>Fuel Capacity :</string>
+    </text>
+    <text width="56" height="17">
+      <string>Name :</string>
+    </text>
+    <text x="397" y="438" width="97" height="17">
+      <string>Tank Capacity</string>
+      <string> :</string>
+    </text>
+    <text x="208" y="553" width="184" height="23">
+      <font name="Arial" size="18" />
+      <string>CAR  INFORMATION</string>
+    </text>
+    <line x="56" y="591" width="491" height="-5">
+      <stroke />
+    </line>
+    <text x="128" y="605" width="379" height="53">
+      <font name="Arial" size="22" />
+      <string>Total Amount :  @Price@</string>
+    </text>
+    <text x="130" y="651" width="379" height="53">
+      <font name="Arial" size="22" />
+      <string>Date              :  @Date@</string>
+    </text>
+    <text x="122.5" y="237.5" width="61" height="15">
+      <string>@Baddr@</string>
+    </text>
+    <text x="122" y="220.5" width="58" height="15">
+      <string>@Bcnic@</string>
+    </text>
+    <text x="116.5" y="179.5" width="67" height="15">
+      <string>@Bname@</string>
+    </text>
+    <text x="121" y="201.5" width="50" height="15">
+      <string>@Bno@</string>
+    </text>
+    <text x="142" y="383.5" width="68" height="15">
+      <string>@Cname@</string>
+    </text>
+    <text x="162" y="403.5" width="68" height="15">
+      <string>@Cmanu@</string>
+    </text>
+    <text x="156" y="423.5" width="64" height="15">
+      <string>@Ccolor@</string>
+    </text>
+    <text x="164.5" y="443.5" width="57" height="15">
+      <string>@Cfeul@</string>
+    </text>
+    <text x="459.5" y="379.5" width="79" height="15">
+      <string>@Clocation@</string>
+    </text>
+    <text x="454.5" y="399.5" width="53" height="15">
+      <string>@Cmil@</string>
+    </text>
+    <text x="450" y="420.5" width="70" height="15">
+      <string>@Cmodel@</string>
+    </text>
+    <text x="488" y="437.5" width="60" height="15">
+      <string>@Ctank@</string>
+    </text>
+    <text x="441.5" y="183.5" width="67" height="15">
+      <string>@Sname@</string>
+    </text>
+    <text x="444" y="202.5" width="50" height="15">
+      <string>@Sno@</string>
+    </text>
+    <text x="449.5" y="235.5" width="61" height="15">
+      <string>@Saddr@</string>
+    </text>
+    <text x="445" y="218.5" width="58" height="15">
+      <string>@Scnic@</string>
+    </text>
+  </page>
+</document>
